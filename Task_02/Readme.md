@@ -1,4 +1,4 @@
-# Task 01 - 20/03/2021
+# Task 02 - 20/03/2021
 ## Js Basics
 ### API Call
 
