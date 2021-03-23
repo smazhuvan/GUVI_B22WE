@@ -32,13 +32,6 @@ Later in 2015, happened a major revision in HTTP network protocol which was held
 
 Let us see more wide differentiation of HTTP1.1 vs HTTP2 in the upcoming solution.
  
-
-
-
-
-Shivakumar Mazhuvan
-
- 
 Question 2: Difference between HTTP/1.1 vs HTTP/2
 
 Answer:
@@ -62,101 +55,27 @@ It also reduces the HTTP request size.
 
 Additionally, HTTP/2.0 was built upon HTTP/1.1 so the migration does not affect vastly, as it leverages the use of browser caching this ultimately fast as of now.
  
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-Shivakumar Mazhuvan
-
  
 Question 3: List 5 difference between Browser JS (console) vs Node JS
 
 Answer:
 
-
-
-
-
-
-
-
-	Browser JS			Node JS	
+Browser JS				
 	
-Most of the time the functionality is to communication with the DOM or any other web	Does not need any object communication provided by the browser.
-platform API.			
-	
-Compatibility issues: May not be generic and usable for every web browser available,	It controls the environment, supports modern JavaScript versions irrespective of any
-added to this version deprecation issues too.	configuration.
-	
-JavaScript is fast but the browsers can be slow.	Whereas, this a JavaScript runtime environment that executes JS code outside a web
-			browser.
-	
-Does not have much effective API’s compared to NodeJS.	Provides multiple modules and packages like filesystem access functionality
+Most of the time the functionality is to communication with the DOM or any other web platform API.	
+Compatibility issues: May not be generic and usable for every web browser available, added to this version deprecation issues too.	
+JavaScript is fast but the browsers can be slow.	
+Does not have much effective API’s compared to NodeJS.	
+ES Modules are implemented.	
 
+Node JS
 
-
-
-ES Modules are implemented.	CommonJS module system is been used here.
-
+Does not need any object communication provided by the browser.		
+It controls the environment, supports modern JavaScript versions irrespective of any configuration.
+Whereas, this a JavaScript runtime environment that executes JS code outside a web browser.
+Provides multiple modules and packages like filesystem access functionality
+CommonJS module system is been used here.
  
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-Shivakumar Mazhuvan
-
  
 Question 4: Abstract Working of JS engine (V8).
 
@@ -198,11 +117,3 @@ Entering a URL (eg: www.guvi.in) into a web browser,
 3.	The server sends back a HTTP response acknowledging that the address is been matched with request, as a response the index.html will be first fetch.
 
 4.	The browser begins rendering the HTML and later the other essential components like CSS, JS and other media files are fetched via repeated process.
- 
-
-
-
-
-
-Shivakumar Mazhuvan
-
