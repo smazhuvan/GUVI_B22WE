@@ -1,0 +1,115 @@
+/* CSS Document */
+
+/* Universal Declaration of size & font */
+* {
+	box-sizing: border-box;
+	font-family: Arial, Geneva, Helvetica, sans-serif; 
+}
+/* HTML main body contents dimensions with border */
+body {
+	width:900px;
+	height: auto;
+	margin-left: auto;
+	margin-right: auto;
+	border: 10px solid gray;
+} 
+/* Left Column by-parting */		
+.column {
+	float: left;
+	width: 50%;
+	padding: 10px;
+	border-right: 1px solid gray;
+}
+/* h2 elements in left column */
+.column h2{
+	font-size: 30px;
+	color: dimgrey;
+}
+/* Right Column by-parting */
+.column-2 {
+	float: left;
+	width: 50%;
+	padding: 10px;
+}
+/* h2 elements in right column */
+.column-2 h2{
+	font-size: 30px;
+	color: dimgrey;
+}
+/*Row elemets clearing after by-parting*/
+.row:after {
+	content: "";
+	display: table;
+	clear: both;
+}
+/*Profile pic rounded border with dotted lines*/
+.img-circle-center{
+	border-radius: 50%;
+	display: block;
+	margin-left: auto;
+	margin-right: auto;
+	border-style: dotted;
+	border-color: goldenrod;
+}
+/*Grey colour band around the Profile pic*/
+.img-header{
+	background-color: dimgrey;
+}
+/*Heading custom alterations*/
+.txt-header h1{
+	font-family: Cambria, "Hoefler Text", "Liberation Serif", Times, "Times New Roman", "serif";
+	font-size: 70px;
+	border-radius: 10px;
+  	background: goldenrod;
+  	padding: 10px;
+	margin-left: auto;
+	margin-right: auto;
+	width: 500px;
+    position:relative;
+    bottom:100px;  
+	text-align: center;
+}
+/*Adress adn other info styling*/
+.txt p{
+  	bottom:100px;
+    position:relative; 
+	text-align: center;
+}
+/*Grey band beneath the name*/
+.filler{
+	background-color: dimgrey;
+	height: 30px;
+    position:relative;
+    bottom:-60px;
+}
+/*Table layout settings*/
+table.skills{
+	table-layout: fixed;
+	width: 100%;
+}
+/*Progress bar dimensions*/
+progress{
+	height: 10px;
+  	border-radius: 2px; 
+  	width: 50%;
+}
+/*Progress bar inner fill gradient*/
+progress::-webkit-progress-value {
+  background-image:
+	   
+	   -webkit-linear-gradient(top, 
+	                           rgba(255, 255, 255, .25), 
+	                           rgba(0, 0, 0, .25)),
+	   -webkit-linear-gradient(315deg, #f39f86 0%, #f9d976 74%);
+
+   border-radius: 2px; 
+   background-size: 35px 20px, 100% 100%, 100% 100%;
+}
+/*Progress bar behind fill solid*/
+progress::-webkit-progress-bar {
+  background: lightgrey;
+}
+/*Paragraph and List element alignment*/
+p,li{
+	text-align: justify;
+}
