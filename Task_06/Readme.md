@@ -1,5 +1,5 @@
-# Task 06 - 17/04/2021
+# Task 06 - 11/04/2021
 
-### Replication: https://docs.google.com/document/d/1ZHN37TtzKO6mU5W5iYNRrq7u-o8xb4FRm0gW1vIojj0/edit <hr>
+### Replication: https://docs.google.com/document/d/1f5nZnYev1R7k5MAP-kAS7lrRDgBHb2ca-trSj6OOg8k/edit <hr>
 
-### Live @ 
+### Live @ https://guvi-resume.netlify.app/
